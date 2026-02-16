@@ -1,4 +1,3 @@
-import java.util.List;
 
 public class Start {
    
@@ -7,13 +6,17 @@ public class Start {
             // System.err.println("Result "+ math.add(4, 5));
 
             //leetcode 1200 
-        MinimumAbsoluteDifference obj = new MinimumAbsoluteDifference();
+        // MinimumAbsoluteDifference obj = new MinimumAbsoluteDifference();
 
-        int[] arr = {4, 2, 1, 3};
+        // int[] arr = {4, 2, 1, 3};
 
-        List<List<Integer>> answer = obj.minimumAbsDifference(arr);
+        // List<List<Integer>> answer = obj.minimumAbsDifference(arr);
 
-        System.out.println(answer);
+        // System.out.println(answer);
+        ReverseBits bits = new ReverseBits();
+       int n = 43261596; 
+      int result= bits.reverseBits(n);
+      System.out.println("Result"+ result);
         }
 
 }

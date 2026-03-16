@@ -18,10 +18,14 @@ public class Start {
     //   int result= bits.reverseBits(n);
     //   System.out.println("Result"+ result);
 
-    BinaryNumberWithAlernativeBits bits = new BinaryNumberWithAlernativeBits();
-    int n = 11;
-    boolean ans = bits.hasAlternatingBits(n);
-    System.out.println("ans: "+ans);
+    // BinaryNumberWithAlernativeBits bits = new BinaryNumberWithAlernativeBits();
+    // int n = 11;
+    // boolean ans = bits.hasAlternatingBits(n);
+    // System.out.println("ans: "+ans);
+         ComplementOfBaseTenInt converted = new ComplementOfBaseTenInt();
+         int n = 5;
+         int ans= converted.bitwiseComplement(n);
+         System.err.println("ans"+ ans );
 
         }
 
